@@ -86,11 +86,11 @@ Send this request, you can observe an additional 30-second (5 * 3 * 2) time dela
 
 
 
-![part1-1](assest/chatsystem/sql-2/part1-1.png)
+![part1-1](../assest/chatsystem/sql-2/part1-1.png)
 
 
 
-![part1-2](assest/chatsystem/sql-2/part1-2.png)
+![part1-2](../assest/chatsystem/sql-2/part1-2.png)
 
 
 
@@ -98,8 +98,8 @@ Send this request, you can observe an additional 30-second (5 * 3 * 2) time dela
 
 **part2**
 
-![part2-1](assest/chatsystem/sql-2/part2-1.png)
+![part2-1](../assest/chatsystem/sql-2/part2-1.png)
 
 
 
-![part2-2](assest/chatsystem/sql-2/part2-2.png)
+![part2-2](../assest/chatsystem/sql-2/part2-2.png)
