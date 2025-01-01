@@ -86,11 +86,11 @@ Send this request, you can observe an additional 30-second (5 * 3 * 2) time dela
 
 
 
-![image-20250101181527039](C:\Users\sinon\AppData\Roaming\Typora\typora-user-images\image-20250101181527039.png)
+![part1-1](assest/chatsystem/sql-2/part1-1.png)
 
 
 
-![image-20250101181556926](C:\Users\sinon\AppData\Roaming\Typora\typora-user-images\image-20250101181556926.png)
+![part1-2](assest/chatsystem/sql-2/part1-2.png)
 
 
 
@@ -98,8 +98,8 @@ Send this request, you can observe an additional 30-second (5 * 3 * 2) time dela
 
 **part2**
 
-![image-20250101181632369](C:\Users\sinon\AppData\Roaming\Typora\typora-user-images\image-20250101181632369.png)
+![part2-1](assest/chatsystem/sql-2/part2-1.png)
 
 
 
-![image-20250101181705735](C:\Users\sinon\AppData\Roaming\Typora\typora-user-images\image-20250101181705735.png)
+![part2-2](assest/chatsystem/sql-2/part2-2.png)
