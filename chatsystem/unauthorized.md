@@ -89,7 +89,7 @@ id=1&del=1
 
 
 
-![image-20250101184817724](C:\Users\sinon\AppData\Roaming\Typora\typora-user-images\image-20250101184817724.png)
+![part-1](../assest/chatsystem/unauthorized/unauthorized-part1.png)
 
 
 
@@ -97,7 +97,7 @@ id=1&del=1
 
 
 
-![image-20250101184515554](C:\Users\sinon\AppData\Roaming\Typora\typora-user-images\image-20250101184515554.png)
+![part-2](../assest/chatsystem/unauthorized/unauthorized-part2.png)
 
 
 
@@ -107,4 +107,4 @@ id=1&del=1
 
 
 
-![image-20250101184605794](C:\Users\sinon\AppData\Roaming\Typora\typora-user-images\image-20250101184605794.png)
+![part-3](../assest/chatsystem/unauthorized/unauthorized-part3.png)
