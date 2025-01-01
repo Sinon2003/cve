@@ -224,7 +224,7 @@ if __name__ == "__main__":
 
 **Result**
 
-![image-20250101042918832](C:\Users\sinon\AppData\Roaming\Typora\typora-user-images\image-20250101042918832.png)
+![sql-inject1](assest/sql-inject1.png)
 
 
 
