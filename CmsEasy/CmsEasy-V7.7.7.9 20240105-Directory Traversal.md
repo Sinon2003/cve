@@ -102,17 +102,17 @@ submit=1&select[]=.....///.....///test.txt
 
 Create `1.txt` file to test.
 
-![image-20250123010305574](assest/cmseasy/cmseasy-2.png)
+![image-20250123010305574](/assest/cmseasy/cmseasy-2.png)
 
 
 
 Send the exploit (constructing two levels up in the directory because the trigger point is located in `lib/admin/database_admin.php`).  The response "Template does not exist" is displayed normally, but the deletion was actually successful.
 
-![image-20250123010228909](assest/cmseasy/cmseasy-3.png)
+![image-20250123010228909](/assest/cmseasy/cmseasy-3.png)
 
 
 
 The file can be seen to have been deleted.
 
-![image-20250123010334583](assest/cmseasy/cmseasy-4.png)
+![image-20250123010334583](/assest/cmseasy/cmseasy-4.png)
 
