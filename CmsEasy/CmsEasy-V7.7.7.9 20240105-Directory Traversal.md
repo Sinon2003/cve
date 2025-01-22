@@ -12,7 +12,7 @@ CmsEasy has a directory traversal vulnerability in `lib/admin/database_admin.php
 
 In the `lib/admin/database_admin.php` file, due to insufficient filtering in the `backAll_action` function, directory traversal leads to arbitrary file deletion.
 
-![image-20250123005104482](assest/cmseasy/cmseasy-1.png)
+![image-20250123005104482](/assest/cmseasy/cmseasy-1.png)
 
 
 
