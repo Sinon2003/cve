@@ -1,6 +1,8 @@
 # CmsEasy-V7.7.7.9 20240105-Directory Traversal
 
 
+**Note: This reproduction requires logging into the admin panel first.**
+
 
 ## Introduce
 
