@@ -12,7 +12,7 @@ CmsEasy has a directory traversal vulnerability in `lib/admin/database_admin.php
 
 In the `lib/admin/database_admin.php` file, due to insufficient filtering in the `backAll_action` function, directory traversal leads to arbitrary file deletion.
 
-![image-20250123005104482](E:\tmp\cmseasy-1.png)
+![image-20250123005104482](assest/cmseasy/cmseasy-1.png)
 
 
 
@@ -102,17 +102,17 @@ submit=1&select[]=.....///.....///test.txt
 
 Create `1.txt` file to test.
 
-![image-20250123010305574](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250123010305574.png)
+![image-20250123010305574](assest/cmseasy/cmseasy-2.png)
 
 
 
 Send the exploit (constructing two levels up in the directory because the trigger point is located in `lib/admin/database_admin.php`).  The response "Template does not exist" is displayed normally, but the deletion was actually successful.
 
-![image-20250123010228909](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250123010228909.png)
+![image-20250123010228909](assest/cmseasy/cmseasy-3.png)
 
 
 
 The file can be seen to have been deleted.
 
-![image-20250123010334583](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250123010334583.png)
+![image-20250123010334583](assest/cmseasy/cmseasy-4.png)
 
