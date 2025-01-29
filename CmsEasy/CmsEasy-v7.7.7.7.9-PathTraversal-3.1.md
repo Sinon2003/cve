@@ -136,7 +136,7 @@ submit=1&select[]={xxxx}
 
 Create a directory `11` at the same level as `data/backup-data` (which may include subdirectories) as an example to avoid directly damaging the website environment.
 
-![image-20250129225807278](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250129225807278.png)
+![image-20250129225807278](/assest/cmseasy/vul-3/cmseasy-3.1.png)
 
 **Constructing the Payload**
 
@@ -163,17 +163,17 @@ submit=1&select[]=../11
 
 **The response template not existing is a normal behavior (this is expected).**
 
-![image-20250129225913985](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250129225913985.png)
+![image-20250129225913985](/assest/cmseasy/vul-3/cmseasy-3.2.png)
 
 
 
 **Check the `11` directory and confirm that it has been successfully deleted.**
 
-![image-20250129225947966](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250129225947966.png)
+![image-20250129225947966](/assest/cmseasy/vul-3/cmseasy-3.3.png)
 
 **Continue the verification by creating a subdirectory `11` under the website root directory as an example (it may include substructures) to test recursive deletion.**
 
-![image-20250129230020319](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250129230020319.png)
+![image-20250129230020319](/assest/cmseasy/vul-3/cmseasy-3.4.png)
 
 **Constructing the Payload**
 
@@ -198,7 +198,7 @@ submit=1&select[]=../../11
 
 **Check and confirm that the `11` directory has been successfully deleted.**
 
-![image-20250129230122043](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250129230122043.png)
+![image-20250129230122043](/assest/cmseasy/vul-3/cmseasy-3.5.png)
 
 **Vulnerability successfully verified.**
 
