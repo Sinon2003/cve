@@ -139,13 +139,13 @@ $img = ROOT  .config::get('html_prefix').'/'. '/upload/images/' . front::get('di
 
 This results in appending `dir` and `imgname` to the directory `/cn/upload/images/`.
 
-![image-20250202183849224](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250202183849224.png)
+![image-20250202183849224](/assest/cmseasy/vul-2-2-1/1.png)
 
 Among them, the directories `202012` and `201908` are fixed template static resources. (According to FoFa testing, most targets have image files under the `202012` directory, for example, the external mapping of the sample image resource is `/images/banner/s1.jpg`).
 
 We attempt to delete `robots.txt` (located in the root directory).
 
-![image-20250202183943448](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250202183943448.png)
+![image-20250202183943448](/assest/cmseasy/vul-2-2-1/2.png)
 
 
 
@@ -166,11 +166,11 @@ Connection: keep-alive
 
 A response of `302` is considered normal.
 
-![image-20250202184035246](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250202184035246.png)
+![image-20250202184035246](/assest/cmseasy/vul-2-2-1/3.png)
 
 Checking the `robots.txt` file, it was found to have been successfully deleted.
 
-![image-20250202184111275](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250202184111275.png)
+![image-20250202184111275](/assest/cmseasy/vul-2-2-1/4.png)
 
 Vulnerability verification successful.
 
