@@ -148,13 +148,13 @@ $img = ROOT  .config::get('html_prefix').'/'. '/upload/images/' . front::get('di
 
 This results in appending `dir` and `imgname` to the directory `/cn/upload/images/`.
 
-![image-20250202190322616](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250202190322616.png)
+![image-20250202190322616](/assest/cmseasy/vul-2-2-2/1.png)
 
 Among them, the directories `202012` and `201908` are fixed template static resources. (According to FoFa testing, most targets have image files under the `202012` directory; for example, the external mapping of a sample image resource is `/images/banner/s1.jpg`.)
 
 We attempt to delete `robots.txt` (located in the root directory).
 
-![image-20250202190358977](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250202190358977.png)
+![image-20250202190358977](/assest/cmseasy/vul-2-2-2/2.png)
 
 
 
@@ -177,11 +177,11 @@ Connection: keep-alive
 
 A response of 302 is normal, as redirection is in place.
 
-![image-20250202190514892](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250202190514892.png)
+![image-20250202190514892](/assest/cmseasy/vul-2-2-2/3.png)
 
 Upon inspection, it was found that `robots.txt` was successfully deleted.
 
-![image-20250202190533970](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250202190533970.png)
+![image-20250202190533970](/assest/cmseasy/vul-2-2-2/4.png)
 
 
 
