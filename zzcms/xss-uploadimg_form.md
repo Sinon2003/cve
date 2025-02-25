@@ -53,7 +53,7 @@ http://demo.com/up/uploadimg_form.php?imgid="><script>alert('XSS')</script>&nosh
 
 ### Vulnerability Verification
 
-![image-20250225204446195](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250225204446195.png)
+![image-20250225204446195](/assest/zzcms/xss-uploadimg_form/xss-1.png)
 
 
 
