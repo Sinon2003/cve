@@ -53,7 +53,7 @@ http://demo.com/3/ucenter_api/code/register_nodb.php/"><script>alert(document.co
 http://hzp.zzcms.net/3/ucenter_api/code/register_nodb.php/%22%3E%3Cscript%3Ealert(%22success%22)%3C/script%3E
 ```
 
-![image-20250226185444560](C:\Users\Rorochan\AppData\Roaming\Typora\typora-user-images\image-20250226185444560.png)
+![image-20250226185444560](/assest/zzcms/xss-register_nodb/xss.png)
 
 ### Website Reference
 
